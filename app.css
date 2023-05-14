@@ -1,0 +1,20 @@
+@media screen and (max-width: 768px) {
+    .container-xl > .d-flex {
+      flex-wrap: wrap-reverse;
+    }
+ 
+  }
+  
+  @media (max-width: 768px) {
+    .container-md {
+      order: 1;
+    }
+    .container-xl {
+      order: 2;
+    }
+  }
+
+  .offcanvas-body ul {
+    list-style: none;
+    padding-left: 0;
+}
