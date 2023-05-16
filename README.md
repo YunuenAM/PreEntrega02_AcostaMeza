@@ -38,9 +38,15 @@ Método map()
 
 Método forEach()
 
-    1. Se declara la variable descuento en este caso para aplicar un 10% de descuento en
 
-    panes libres de gluten
+1. Se declara la variable descuento en este caso para aplicar un 10% de descuento en
 
+   panes libres de gluten
 2. Se crea la variable carrito para alamacenar el descuento y los panes o productos que el cliente desea comprar
-3. Se ocupa el método forEach para ayudar a recorrer el array aplicar un descuento a los productos que no contienen gluten y se almacenan en el array carrito ; finalmente se ocupa .push para agregar los productos al array carrito
+3. Se ocupa el método forEach para ayudar a recorrer el array aplicar un descuento a los productos que no contienen gluten y se almacenan en el array carrito ; finalmente se ocupa
+
+   ```
+   .push
+   ```
+
+    para agregar los productos al array carrito
