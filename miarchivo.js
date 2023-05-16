@@ -27,7 +27,7 @@ function calcularCostoPedido(){
     // Calcula el costo total del pedido
     costo = costoProducto * cantidad;
 
-    document.getElementById("costo").textContent = `${costo.toFixed(2)}`;
+    document.getElementById("costo").textContent = `${costo.toFixed(2)}`; //Muestra el costo total del pedido utilizando el método toFixed para mostrar solo dos decimales y se ocupa getElementsByClassName para obtener el elemento con el id costo y mostrar el costo total del pedido en el HTML
 }
 
 

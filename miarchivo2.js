@@ -30,19 +30,19 @@ const productos = [
 // Ahora se utiliza el método filter para obtener la lista de panes sin gluten
 
 // let sinGluten = productos.filter(producto => !producto.alergenos.includes('gluten'));
-
+// se declara una variable sinGluten para almacenar los productos que no contienen gluten y después se utiliza el método filter para obtener la lista de panes sin gluten mediante el uso de la función flecha y el método includes para obtener los productos que no contienen gluten
 // console.log(sinGluten);
 
 //Finalmente se ocupa el método forEach para aplicar un descuento , cuando hay promoción en este caso del 10% a panes libres de gluten
 
 let descuento = 0.10;
-let carrito = []
+let carrito = [] //Se declaran las variables descuento y carrito para almacenar el descuento y los productos que el cliente desea comprar
 
 productos.forEach(producto => {
  if(producto.alergenos.includes('gluten')){
     producto.precio = producto.precio - (producto.precio * descuento);
     carrito.push(producto);
- }
+ } //se ocupa el métod forEach para aplicar un descuento a los productos que no contienen gluten y se almacenan en el array carrito y finalmente se ocupa carrito.push para agregar los productos al array carrito
 });
 
 
